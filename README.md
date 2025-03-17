@@ -1,3 +1,5 @@
+# Vibe Coding FTW! This was a bargain at $1.88 using Claude Code!
+
 # Flappy Sales: Technical Trials
 
 A fun, pixel-art style game where you play as a pre-sales Solutions Engineer navigating through pesky Account Executives trying to clash your calendar!

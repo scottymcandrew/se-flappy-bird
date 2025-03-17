@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Sales: Technical Trials</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <div id="game-over" class="hidden">
+            <h2>Game Over!</h2>
+            <p>Technical Wins: <span id="final-score">0</span></p>
+            <button id="restart-button">Restart</button>
+        </div>
+        <div id="game-start">
+            <h2>Flappy Sales: Technical Trials</h2>
+            <p>Press Space or Click to start and fly!</p>
+            <p class="small-text">Avoid Account Executives with their clashing calendars and collect Technical Wins!</p>
+        </div>
+        <canvas id="game-canvas"></canvas>
+        <div id="score-display">Technical Wins:<br><span id="score">0</span></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

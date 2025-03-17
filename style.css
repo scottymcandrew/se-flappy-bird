@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2c3e50;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#game-canvas {
+    background-color: #87CEEB;
+    display: block;
+}
+
+#score-display {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    color: #fff;
+    font-size: 12px;
+    text-shadow: 2px 2px 0 #000;
+    z-index: 10;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    line-height: 1.4;
+}
+
+#game-over, #game-start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 10;
+    width: 80%;
+    max-width: 300px;
+    border: 3px solid #e74c3c;
+}
+
+#game-start h2, #game-over h2 {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#game-start p, #game-over p {
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.small-text {
+    font-size: 8px !important;
+    color: #bdc3c7;
+}
+
+#restart-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+}
+
+#restart-button:hover {
+    background-color: #c0392b;
+}
+
+.hidden {
+    display: none;
+}
